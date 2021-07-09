@@ -1,0 +1,152 @@
+/*common css*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'playfair-display',serif;
+	font-size: 16px;
+}
+/*common css*/
+/*header start*/
+header{  
+ 	padding: 30px 0;
+ 	background-color: #fcdb00; 
+}
+.container{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 70%;
+}
+.logo{
+	margin-top: 10px;
+	width: 30%;
+	float: left;
+}
+.logo a{
+	float: left;
+	margin-right: 10px;
+}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	width: 60%;
+	float: right;
+}
+.menu ul{
+	float: right;
+	list-style: none;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	margin: 0 80px;
+	display: inline-block;
+	color: #000000;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.menu ul li a:hover{
+	color: white;
+}
+.menu ul li a:last-child{
+	margin-right: 0;
+}
+.banner{
+	background-color: #fcdb00;
+}
+.h_content{
+	overflow: hidden;
+	padding-bottom: 60px;
+}
+.head_l{
+	margin-top: 50px;
+	width: 33%;
+	float: left;
+}
+.head_l h1{
+	font-family: 'PlayfairDisplay-Regular.otf' ;
+}
+.h_subtitle{
+	font-family: 'PlayfairDisplay-Regular.otf';
+	font-size: 18px;
+	color: #313841;
+}
+.h_text{
+	font-family: 'PlayfairDisplay-Regular.otf';
+	font-size: 14px;
+	color: #313841;
+}
+.icon{
+	margin-top: 30px;
+}
+.icon ul{
+	list-style: none;
+}
+.icon ul li{
+	float: left;
+	margin-left: 20px;
+}
+.icon ul li:first-child{
+	margin-left: -40px;
+}
+.h_img{
+	width: 30%;
+	float: right;
+}
+/*header end*/
+/*feature start*/
+.feature{}
+.f_content{}
+.f_text{
+	text-align: center;
+}
+.f_text h2{
+	font-family: 'PlayfairDisplay-Regular.otf';
+	font-size: 30px;
+    text-transform: capitalize;
+}
+.f_text p{
+	font-family: 'PlayfairDisplay-Regular.otf';
+	font-size: 16px;
+	color: #313841;
+	margin: 0 90px;
+}
+.single_wrapper{
+	overflow: hidden;
+}
+.f_single{
+	margin-bottom: 90px;
+    width: 28%;
+    float: left;
+    margin-right: 2%;
+    margin-top: 20px;
+    overflow: hidden;
+}
+}
+.f_icon{
+	margin-right: -10px;
+	width: 14%;
+	float: left;
+}
+.f_icon img{
+	margin-top: 10px;
+	margin-left: 22px;
+}
+.s_text{
+	margin-top: -70px;
+	float: right;
+	width: 75%;
+}
+.s_text h3{
+	font-family: 'PlayfairDisplay-Regular.otf' ;
+	font-weight: 400;
+	margin-top: 20px;
+}
+.s_text  p{
+	font-size: 14px;
+	color: #313841;
+	margin: 0;
+}
+
+/*feature end*/
